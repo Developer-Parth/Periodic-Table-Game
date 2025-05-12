@@ -1153,11 +1153,11 @@ function createDropZones() {
             if (period === 6 && group === 3) {
                 // Lanthanide placeholder (57-71)
                 zone.dataset.group = "lanthanide-placeholder";
-                zone.textContent = "57-71";
+                zone.textContent = "";
             } else if (period === 7 && group === 3) {
                 // Actinide placeholder (89-103)
                 zone.dataset.group = "actinide-placeholder";
-                zone.textContent = "89-103";
+                zone.textContent = "";
             } else {
                 // Find if a main table element exists in this position
                 const element = data.elements.find(
